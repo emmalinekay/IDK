@@ -1,0 +1,83 @@
+body {
+  background-color: rgb(244, 248, 249);
+  font-family: Helvetica;
+  font-size: 20;
+}
+
+.tweet-box {
+  float: left;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(225, 232, 237);
+  border-radius: 10px;
+  padding: 20px 20px;
+  width: 600px;
+}
+
+.profile-picture {
+  position: relative;
+  display: inline-block;
+}
+
+.account-logo {
+  position: absolute;
+  top: inherit;
+  margin-left: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.account-name {
+  position: absolute;
+  top: inherit;
+  margin-left: 45px;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+}
+
+.validated-account {
+  position: absolute;
+  top: inherit;
+  margin-left: 102px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.user {
+  position: absolute;
+  top: 65px;
+  margin-left: 15px;
+  font-weight: normal;
+  display: inline-block;
+  color: rgb(104, 109, 129);
+  font-size: 25px;
+}
+
+.follow {
+  float: right;
+  color: rgb(85, 172, 238);
+  font-weight: bolder;
+  border: 3px solid rgb(85, 172, 238);
+  border-radius: 10px;
+}
+
+.tweet-text {
+  font-size: 22px;
+  top: 20px;
+}
+
+.date-time {
+  font-size: 18px;
+  color: rgb(105, 120, 130);
+}
+
+.retweet {
+  position: relative;
+  left: 30px;
+}
+
+.favorite {
+  position: relative;
+  left: 30px;
+}
